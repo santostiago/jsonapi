@@ -1,0 +1,2 @@
+class CarsController < ApiController
+end
