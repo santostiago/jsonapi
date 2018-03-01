@@ -3,7 +3,7 @@ JSONAPI.configure do |config|
   config.default_paginator = :paged
   config.default_page_size = 50
   config.maximum_page_size = 3000
-  # config.resource_cache = Rails.cache
+  config.resource_cache = Rails.cache
   config.always_include_to_one_linkage_data = false
 
   # Metadata
