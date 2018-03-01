@@ -1,5 +1,5 @@
 class ExtraResource < JSONAPI::Resource
-  #caching
+  # caching
   attributes :name, :private
 
   has_one :car

@@ -1,5 +1,5 @@
 class UserResource < JSONAPI::Resource
-  #caching
+  # caching
   attributes :name
 
   has_many :cars

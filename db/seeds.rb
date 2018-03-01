@@ -26,6 +26,3 @@ Extra.create(name: 'Extra B2', car_id: car_b.id, private: false)
 
 Extra.create(name: 'Extra BB1', car_id: car_bb.id, private: true)
 Extra.create(name: 'Extra BB2', car_id: car_bb.id, private: false)
-
-
-
